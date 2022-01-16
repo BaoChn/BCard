@@ -180,14 +180,13 @@ const index: React.FC<indexProps> = ({}) => {
               animate={{ x: 0, opacity: 1, transition: { ...transition } }}
               className="preloader__right"
             >
-              <p className="preloader__text">或许是</p>
+              <p className="preloader__text">或许是…</p>
               <p className="preloader__text">Daydreamer</p>
               <p className="preloader__text">FX_Builder</p>
               <p className="preloader__text">UX_Designer</p>
               <p className="preloader__text">Site_Operator</p>
               <p className="preloader__text">Content_Creator</p>
-              <p className="preloader__text">话不多说，</p>
-              <p className="preloader__text">马上探索！</p>
+              <p className="preloader__text">话不多说，马上探索！</p>
             </motion.div>
           </div>
         </motion.div>
@@ -339,11 +338,11 @@ const index: React.FC<indexProps> = ({}) => {
                   HAVE A LOOK
                 </a>
                 <div className="project-card__socials">
-                  <a href="https://space.bilibili.com/19116855">
+                  <a target="_blank" href="https://space.bilibili.com/19116855" rel="noopener">
                     <img src="svg/play.svg" alt="play icon" />
                   </a>&nbsp;
                   <a
-                  rel="noopener"
+                    rel="noopener"
                     target="_blank"
                     href="https://a-b.cc/📽/"
                   >
@@ -376,7 +375,7 @@ const index: React.FC<indexProps> = ({}) => {
                   <br /> 交互设计
                 </h2>
                 <a
-                rel="noopener"
+                  rel="noopener"
                   target="_blank"
                   href="https://fxhub.cn/Document｜文档模板/Web_design_for_Tesla.pdf"
                   className="project-card__link"
@@ -384,11 +383,11 @@ const index: React.FC<indexProps> = ({}) => {
                   CHECK MY WORK
                 </a>
                 <div className="project-card__socials">
-                  <a href="https://fxhub.cn/Document｜文档模板/Web_design_for_Tesla.pdf">
+                  <a target="_blank" href="https://fxhub.cn/Document｜文档模板/Web_design_for_Tesla.pdf" rel="noopener">
                     <img src="svg/layout.svg" alt="layout icon" />
                   </a>&nbsp;
                   <a
-                  rel="noopener"
+                    rel="noopener"
                     target="_blank"
                     href="https://a-b.cc/🎨/"
                   >
@@ -431,13 +430,20 @@ const index: React.FC<indexProps> = ({}) => {
                   GET MY IDEA
                 </a>
                 <div className="project-card__socials">
-                  <a href="https://dribbble.com/BaoChn">
+                  <a
+                    rel="noopener"
+                    target="_blank"
+                    href="https://instagram.com/baochn/"
+                  >
+                    <img src="svg/instagram.svg" alt="instagram icon" />
+                  </a>&nbsp;
+                  <a target="_blank" href="https://dribbble.com/BaoChn" rel="noopener">
                     <img src="svg/dribble.svg" alt="dribble icon" />
                   </a>&nbsp;
                   <a
                   rel="noopener"
                     target="_blank"
-                    href="https://github.com/BaoChn/BCard"
+                    href="https://github.com/BaoChn/"
                   >
                     <img src="svg/github.svg" alt="github icon" />
                   </a>
@@ -477,9 +483,16 @@ const index: React.FC<indexProps> = ({}) => {
                 </a>
                 <div className="project-card__socials">
                   <a
+                    href="https://a-b.cc"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <img src="svg/smile.svg" alt="smile logo" />
+                  </a>&nbsp;
+                  <a
                   rel="noopener"
                     target="_blank"
-                    href="https://a-b.cc"
+                    href="https://fxhub.cn"
                   >
                     <img src="svg/server.svg" alt="server icon" />
                   </a>&nbsp;
@@ -589,10 +602,12 @@ const index: React.FC<indexProps> = ({}) => {
           </section>
         </main>
         <footer className="footer">
-          <img
-            src="svg/logo-footer.svg"
-            alt="Build & Devlop by BaoChn"
-          />
+          <a target="_blank" href="https://github.com/BaoChn/BCard" rel="noopener">
+            <img
+              src="svg/logo-footer.svg"
+              alt="Build & Devlop by BaoChn"
+              />
+          </a>
           <div className="footer__socials">
             <a
               href="https://a-b.cc"
