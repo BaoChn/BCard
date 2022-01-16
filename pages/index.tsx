@@ -180,13 +180,14 @@ const index: React.FC<indexProps> = ({}) => {
               animate={{ x: 0, opacity: 1, transition: { ...transition } }}
               className="preloader__right"
             >
-              <p className="preloader__text">也许是个</p>
+              <p className="preloader__text">或许是</p>
               <p className="preloader__text">Daydreamer</p>
               <p className="preloader__text">FX_Builder</p>
               <p className="preloader__text">UX_Designer</p>
               <p className="preloader__text">Site_Operator</p>
               <p className="preloader__text">Content_Creator</p>
-              <p className="preloader__text">话不多说，马上探索！</p>
+              <p className="preloader__text">话不多说，</p>
+              <p className="preloader__text">马上探索！</p>
             </motion.div>
           </div>
         </motion.div>
@@ -315,7 +316,7 @@ const index: React.FC<indexProps> = ({}) => {
                 className="project-card__middle"
                 data-displacement="webp/myDistorsionImage.webp"
               >
-                <img src="webp/alexxandria-1.webp" alt="alexxandria model" />
+                <img src="webp/ppixelchef-1.webp" alt="alexxandria model" />
                 <img src="webp/alexxandria-2.webp" alt="alexxandria logo" />
               </div>
               <div className="project-card__right">
@@ -340,7 +341,7 @@ const index: React.FC<indexProps> = ({}) => {
                 <div className="project-card__socials">
                   <a href="https://space.bilibili.com/19116855">
                     <img src="svg/play.svg" alt="play icon" />
-                  </a>
+                  </a>&nbsp;
                   <a
                   rel="noopener"
                     target="_blank"
@@ -360,7 +361,7 @@ const index: React.FC<indexProps> = ({}) => {
                 className="project-card__middle"
                 data-displacement="webp/myDistorsionImage.webp"
               >
-                <img src="webp/pixelchef-1.webp" alt="pixelchef" />
+                <img src="webp/alexxandria-1.web" alt="pixelchef" />
                 <img src="webp/pixelchef-2.webp" alt="pixelchef logo" />
               </div>
               <div className="project-card__right">
@@ -385,7 +386,7 @@ const index: React.FC<indexProps> = ({}) => {
                 <div className="project-card__socials">
                   <a href="https://fxhub.cn/Document｜文档模板/Web_design_for_Tesla.pdf">
                     <img src="svg/layout.svg" alt="layout icon" />
-                  </a>
+                  </a>&nbsp;
                   <a
                   rel="noopener"
                     target="_blank"
@@ -432,13 +433,13 @@ const index: React.FC<indexProps> = ({}) => {
                 <div className="project-card__socials">
                   <a href="https://dribbble.com/BaoChn">
                     <img src="svg/dribble.svg" alt="dribble icon" />
-                  </a>
+                  </a>&nbsp;
                   <a
                   rel="noopener"
                     target="_blank"
-                    href=""
+                    href="https://github.com/BaoChn/BCard"
                   >
-                    <img src="svg/instagram.svg" alt="instagram icon" />
+                    <img src="svg/github.svg" alt="github icon" />
                   </a>
                 </div>
               </div>
@@ -478,16 +479,16 @@ const index: React.FC<indexProps> = ({}) => {
                   <a
                   rel="noopener"
                     target="_blank"
-                    href="https://a-b.cc/🏆/"
-                  >
-                    <img src="svg/award.svg" alt="award icon" />
-                  </a>
-                  <a
-                  rel="noopener"
-                    target="_blank"
                     href="https://a-b.cc"
                   >
                     <img src="svg/server.svg" alt="server icon" />
+                  </a>&nbsp;
+                  <a
+                  rel="noopener"
+                    target="_blank"
+                    href="https://a-b.cc/🏆/"
+                  >
+                    <img src="svg/award.svg" alt="award icon" />
                   </a>
                 </div>
               </div>
@@ -601,11 +602,11 @@ const index: React.FC<indexProps> = ({}) => {
               <img src="svg/home.svg" alt="home logo" />
             </a>
             <a
-              href="https://github.com/BaoChn/BCard"
+              href="mailto:0246@88.com"
               target="_blank"
               rel="noopener"
             >
-              <img src="svg/github.svg" alt="github logo" />
+              <img src="svg/at.svg" alt="email logo" />
             </a>
           </div>
         </footer>
