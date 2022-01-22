@@ -129,7 +129,7 @@ const index: React.FC<indexProps> = ({}) => {
             name="apple-mobile-web-app-status-bar-style"
             content="#10101A"
           />
-          <title>BaoChn Studio &mdash; Create Possibility</title>
+          <title>宝昌工作室 &mdash; BaoChn Studio</title>
           <meta
             name="description"
             content="Chasing dreams without stopping, Creative ideas can be expected!"
@@ -209,6 +209,7 @@ const index: React.FC<indexProps> = ({}) => {
                 data-scroll-to
                 className="header__hero--cta"
                 href="#sectionProjects"
+                title="即刻探索🔍"
               >
                 LAUNCH🚀
               </a>
@@ -224,6 +225,7 @@ const index: React.FC<indexProps> = ({}) => {
                       ? `${"speaker__toggle--anim"}`
                       : ``
                   }`}
+                  title="🤐"
                 >
                   &nbsp;
                 </div>
@@ -275,16 +277,16 @@ const index: React.FC<indexProps> = ({}) => {
               </div>
             </div>
             <div className="header__footer--right">
-              <a target="_blank" href="https://a-b.cc/QQ" rel="noopener">
+              <a target="_blank" href="https://a-b.cc/QQ" rel="noopener" title="ID:14141522">
                 🐧 QQ
               </a>
-              <a target="_blank" href="https://t.me/BaoChn" rel="noopener">
+              <a target="_blank" href="https://t.me/BaoChn" rel="noopener" title="@BaoChn">
                 🛩️ TG
               </a>
-              <a target="_blank" href="https://a-b.cc/WC" rel="noopener">
+              <a target="_blank" href="https://a-b.cc/WC" rel="noopener" title="ID:BaoChn">
                 👁️‍🗨️ WC
               </a>
-              <a target="_blank" href="https://github.com/BaoChn" rel="noopener">
+              <a target="_blank" href="https://github.com/BaoChn" rel="noopener" title="@BaoChn">
                 {" "}
                 👾 GH
               </a>
@@ -315,7 +317,7 @@ const index: React.FC<indexProps> = ({}) => {
                 className="project-card__middle"
                 data-displacement="webp/myDistorsionImage.webp"
               >
-                <img src="webp/ppixelchef-1.webp" alt="alexxandria model" />
+                <img src="webp/pixelchef-1.webp" alt="alexxandria model" />
                 <img src="webp/alexxandria-2.webp" alt="alexxandria logo" />
               </div>
               <div className="project-card__right">
@@ -360,7 +362,7 @@ const index: React.FC<indexProps> = ({}) => {
                 className="project-card__middle"
                 data-displacement="webp/myDistorsionImage.webp"
               >
-                <img src="webp/alexxandria-1.web" alt="pixelchef" />
+                <img src="webp/alexxandria-1.webp" alt="pixelchef" />
                 <img src="webp/pixelchef-2.webp" alt="pixelchef logo" />
               </div>
               <div className="project-card__right">
@@ -565,7 +567,7 @@ const index: React.FC<indexProps> = ({}) => {
             <h1 className="heading-1">
               <small>🤔</small><span> Is this over?</span>
             </h1><h2 className="section-contact__h2">
-              更多创意，敬候待续
+              更多创意，未完待续
               …
             </h2>
           </section>
@@ -574,28 +576,30 @@ const index: React.FC<indexProps> = ({}) => {
               <small>👋</small><span> Keep Connetion!</span>
             </h1>
             <p className="paragraph">有问题？
-              <a href="tel:+8613914046229">
+              <a href="tel:+8613914046229" title="📱13914046229">
                 call 🤙&nbsp;</a>
               常联系！
               <a
                 target="_blank"
                 href="mailto:0246@88.com"
                 rel="noopener"
+                title="📮0246@88.com"
                 >
                 &nbsp;send 💌
               </a>
             </p>
             <div className="section-socials--links">
-              <a target="_blank" href="https://a-b.cc/QQ" rel="noopener">
+              <a target="_blank" href="https://a-b.cc/QQ" rel="noopener" title="ID:14141522">
                 🐧 QQ
               </a>
-              <a target="_blank" href="https://t.me/BaoChn" rel="noopener">
+              <a target="_blank" href="https://t.me/BaoChn" rel="noopener" title="@BaoChn">
                 🛩️ TG
               </a>
-              <a target="_blank" href="https://a-b.cc/WC" rel="noopener">
+              <a target="_blank" href="https://a-b.cc/WC" rel="noopener" title="ID:BaoChn">
                 👁️‍🗨️ WC
               </a>
-              <a target="_blank" href="https://github.com/BaoChn" rel="noopener">
+              <a target="_blank" href="https://github.com/BaoChn" rel="noopener" title="@BaoChn">
+                {" "}
                 👾 GH
               </a>
             </div>
@@ -606,6 +610,7 @@ const index: React.FC<indexProps> = ({}) => {
             <img
               src="svg/logo-footer.svg"
               alt="Build & Devlop by BaoChn"
+              title="即刻检索本站源码"
               />
           </a>
           <div className="footer__socials">
@@ -613,6 +618,7 @@ const index: React.FC<indexProps> = ({}) => {
               href="https://a-b.cc"
               target="_blank"
               rel="noopener"
+              title="查看宝的博客🏠"
             >
               <img src="svg/home.svg" alt="home logo" />
             </a>
@@ -620,6 +626,7 @@ const index: React.FC<indexProps> = ({}) => {
               href="mailto:0246@88.com"
               target="_blank"
               rel="noopener"
+              title="尝试寄封邮件📮"
             >
               <img src="svg/at.svg" alt="email logo" />
             </a>
